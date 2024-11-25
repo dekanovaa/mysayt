@@ -1,0 +1,13 @@
+.navbar_link{
+    color: rgb(231, 228, 228);
+    font-size: 14px;
+    padding-left: 35px;
+}
+.navbar_link:hover{
+    color: pink;
+}
+.navbar{
+    padding: 20px 0px;
+    text-align: right;
+}
+

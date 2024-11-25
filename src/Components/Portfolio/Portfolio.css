@@ -1,0 +1,20 @@
+.portfolio_title{
+    font-size: 36px;
+    line-height: 55px;
+    color: rgb(44, 44, 44);
+}
+.portfolio{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.portfolio_img{
+    width: 320px;
+    height: 300px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+.swiper{
+    padding-top: 20px;
+    padding-bottom: 30px;
+}

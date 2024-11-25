@@ -1,0 +1,17 @@
+.about{
+    text-align: center;
+    padding-top: 100px;
+}
+.about_title{
+    font-size: 36px;
+    line-height: 55px;
+    color: rgb(44, 44, 44);
+}
+.about_text{
+    font-size: 16px;
+    line-height: 24px;
+    padding-top: 20px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
