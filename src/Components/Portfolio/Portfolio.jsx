@@ -17,7 +17,7 @@ import slide10 from '../../assets/slide10.jpg'
 
 function Portfolio() {
   return (
-    <div className='portfolio'>
+    <div className='portfolio' id='portfolio'>
       <div className='container portfolio_container'>
         <h2 className='portfolio_title'>Portfolio</h2>
         <Downup/>

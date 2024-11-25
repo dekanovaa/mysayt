@@ -15,7 +15,9 @@ function Header() {
           <h1 className="header_title">
             Hi there! My name is Sevinch and I'm a <span>Front-end developer</span>
           </h1>
-          <a href="file:../../../../assets/Dekanova Sevinch_CV.pdf" download={cv}><button className='header_btn'>Download the CV</button></a>
+          <a href={cv} download="Dekanova_Sevinch_CV.pdf">
+            <button className="header_btn">Download the CV</button>
+           </a>
         </div>
     </div>
   )

@@ -4,9 +4,13 @@
   text-decoration: none;
   list-style: none;
   font-family: sans-serif;
+
 }
 .container{
   width: 1200px;
   margin: 0 auto;
   padding: 0;
+}
+html{
+  scroll-behavior: smooth;
 }
