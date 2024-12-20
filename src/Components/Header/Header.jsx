@@ -5,7 +5,7 @@ import cv from '../../assets/Dekanova Sevinch_CV.pdf'
 
 function Header() {
   return (
-    <div className='header'>\
+    <div className='header'>
     <video className="header__video" autoPlay loop muted>
         <source src={header} type="video/mp4" />
         Your browser does not support the video tag.

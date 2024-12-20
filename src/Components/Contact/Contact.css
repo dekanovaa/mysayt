@@ -81,14 +81,16 @@
     .contact_title{
         font-size: 30px;
     }
-    .contact_item{
-        text-align: center;
-        padding: 20px;
-
+    .contact_list{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
+  
 }
 @media(max-width:420px){
     .container{
-      width: 100%
+      width: 100%;
+      padding: 15px;
     }
 }
