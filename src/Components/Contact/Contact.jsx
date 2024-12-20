@@ -28,7 +28,7 @@ function Contact() {
           <h3 className="contact_name">Social media</h3>
           </div>
           <a href="https://github.com/dekanovaa"><i class="fa-brands fa-github"></i></a>
-          <a href="https://t.me/DekanovaSevinch"><i class="fa-brands fa-telegram"></i></a>
+          <a href="https://t.me/pr0grammer_blog"><i class="fa-brands fa-telegram"></i></a>
           </li>
         </ul>
       </div>
