@@ -29,6 +29,36 @@ function Portfolio() {
       modules={[ Pagination]}
       onSlideChange={() => console.log('slide change')}
       onSwiper={(swiper) => console.log(swiper)}
+      breakpoints={{
+        820: {
+          slidesPerView: 3,
+          spaceBetween: 20,
+
+        },
+        720: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+
+        },
+        620: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+
+        },
+        520: {
+          slidesPerView: 1,
+          spaceBetween: 20,
+        },
+        420: {
+          slidesPerView: 1,
+          spaceBetween: 20,
+        },
+        320: {
+          slidesPerView: 1,
+          spaceBetween: 20,
+        }
+
+    }}
     >
       <SwiperSlide>
         <a  href="course-seven-phi.vercel.app"><img className='portfolio_img' src={slide1} alt="portfolio1" /></a>

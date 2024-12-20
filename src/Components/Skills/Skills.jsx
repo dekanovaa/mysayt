@@ -14,6 +14,36 @@ function Skills() {
       slidesPerView={6}
       onSlideChange={() => console.log('slide change')}
       onSwiper={(swiper) => console.log(swiper)}
+      breakpoints={{
+        820: {
+          slidesPerView: 6,
+          spaceBetween: 20,
+
+        },
+        720: {
+          slidesPerView: 5,
+          spaceBetween: 20,
+
+        },
+        620: {
+          slidesPerView: 4,
+          spaceBetween: 20,
+
+        },
+        520: {
+          slidesPerView: 3,
+          spaceBetween: 20,
+        },
+        420: {
+          slidesPerView: 3,
+          spaceBetween: 20,
+        },
+        320: {
+          slidesPerView:2,
+          spaceBetween: 20,
+        }
+
+    }}
     >
       <SwiperSlide>
         <div className='slider'>

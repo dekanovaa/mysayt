@@ -34,6 +34,7 @@ function Navbar() {
             <a className='navbar_link' href="#skills">My skills</a>
             <a className='navbar_link' href="#portfolio">Portfolio</a>
             <a className='navbar_link' href="#contact">Contacts</a>
+            <i class="fa-solid fa-bars"></i>
         </div>
     </div>
   )
